@@ -3,7 +3,7 @@ resolver = "2"
 members = ["sanctum-lst-list", "tojup"]
 
 [workspace.dependencies]
-borsh = "^0.9"
+borsh = "^0.10"
 clap = { version = "^4", features = ["derive"] }
 csv = "^1"
 mpl-token-metadata = "^4"
