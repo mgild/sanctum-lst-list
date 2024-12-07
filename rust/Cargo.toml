@@ -9,7 +9,7 @@ csv = "^1"
 lazy_static = "^1"
 mpl-token-metadata = "^4"
 reqwest = "^0.11"
-sanctum-macros = "^1"
+sanctum-macros = { git = "https://github.com/mgild/sanctum-macros" }
 serde = { version = "^1", features = ["derive"] }
 serde_with = "^3"
 solana-client = ">=1,<2"
