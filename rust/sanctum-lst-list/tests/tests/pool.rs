@@ -10,8 +10,8 @@ use crate::common::{find_sanctum_lst_by_symbol_unwrapped, SOLANA_RPC_URL};
 // Tests for latest batch
 
 #[test]
-fn verify_pool_valid_healthsol() {
-    verify_pool_valid_by_symbol("raiSOL");
+fn verify_pool_valid_latest_batch() {
+    verify_pool_valid_by_symbol("tnkrSOL");
 }
 
 fn verify_pool_valid_by_symbol(symbol: &str) {
